@@ -1,0 +1,8 @@
+hazelcast:
+  cluster-name: hazelcast-cluster
+  network:
+    join:
+      multicast:
+        enabled: false
+      kubernetes:
+        enabled: true
