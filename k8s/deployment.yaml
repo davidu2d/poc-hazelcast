@@ -15,12 +15,17 @@ spec:
     spec:
       containers:
         - name: hazelcast-container
-          image: u2dtecnologia/poc-hazelcast:1.0.3
+          image: u2dtecnologia/poc-hazelcast:1.0.5
           ports:
-            - containerPort: 8080
+            - name: http
+              containerPort: 8080
+            - name: multicast
+              containerPort: 5701
+
   replicas: 2
   strategy:
     type: RollingUpdate
   selector: 
     matchLabels:
       type: backend
+# minikube ssh docker pull u2dtecnologia/poc-hazelcast:1.0.4 -> se der erro ao fazer pull na imagem

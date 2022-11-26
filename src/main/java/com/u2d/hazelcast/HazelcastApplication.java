@@ -1,4 +1,4 @@
-package guides.hazelcast.springboot;
+package com.u2d.hazelcast;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
