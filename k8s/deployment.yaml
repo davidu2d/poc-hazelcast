@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hazelcast-dp
+  name: hazelcast
   labels:
-    app: hazelcast-dp
+    app: hazelcast
     type: backend
 spec:
   template:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hazelcast-container
-          image: u2dtecnologia/poc-hazelcast:1.0.2
+          image: u2dtecnologia/poc-hazelcast:1.0.3
           ports:
             - containerPort: 8080
   replicas: 2
