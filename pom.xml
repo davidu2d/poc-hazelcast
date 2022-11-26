@@ -5,7 +5,7 @@
 
     <groupId>com.br.u2d</groupId>
     <artifactId>poc-hazelcast</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <parent>
