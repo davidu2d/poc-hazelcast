@@ -28,4 +28,4 @@ spec:
   selector: 
     matchLabels:
       type: backend
-# minikube ssh docker pull u2dtecnologia/poc-hazelcast:1.0.4 -> se der erro ao fazer pull na imagem
+# minikube ssh docker pull u2dtecnologia/poc-hazelcast:1.0.6 -> se der erro ao fazer pull na imagem
